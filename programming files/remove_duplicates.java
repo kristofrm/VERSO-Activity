@@ -4,6 +4,8 @@ import java.util.List;
 
 public class remove_duplicates {
 
+    // this function takes a list of integers and a list to hold the duplicates
+    // it returns a list containing each unique integer and adds any duplicate values to the list of removed elements
     public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
         List<Integer> uniqueArr = new ArrayList<>();
         for (int i = 0; i < arr.size(); i++) {
